@@ -23,7 +23,7 @@ data<-read.abif("A01-Ladder-PP16-001.5sec.fsa")
 plotabif(data)
 ```
 ### Plot
-![](images/easy.png)
+![](images/easy.PNG)
 
 ## 2. Medium Test
 
@@ -33,6 +33,7 @@ To make a similar multi-panel ggplot with `facet_grid`.
 
 ### Code
 
+```
 dataframes_found_in_system=c("DATA.1","DATA.2","DATA.3","DATA.4")
 #loading the required packages
 
@@ -45,7 +46,7 @@ data<-read.abif("A01-Ladder-PP16-001.20sec.fsa")$Data
 
 #Data plotting
 
-```
+
 dataframes=NULL
 i=length(dataframes_found_in_system)
 
@@ -66,7 +67,8 @@ ggplot(data = dataframes,group=data_number,aes(color=data_number)) +
   geom_line(data = dataframes,aes(x=time,y=value))+facet_grid(data_number~.,scales = "free")+
   scale_x_continuous(name = "Time/1000")+scale_y_continuous(name = "RFU/1000")
   ```
+  
 ### Plot
 
-![](images/medium.png)
+![](images/medium.PNG)
 
