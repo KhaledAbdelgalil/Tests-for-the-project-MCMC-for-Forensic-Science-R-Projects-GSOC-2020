@@ -9,7 +9,7 @@ Download data from [https://lftdi.camden.rutgers.edu/provedit/files/](https://lf
 First, I downloaded data from the given link. Then I installed the current version of `seqinr` package, which is used for biological sequences retrieval and analysis. In the following code, I used `seqinr::read.abif()` to read the fsa file(data) and then I plot the data extracted using `seqinr::plotabif()`.
 
 ### Code
-'''
+```
 #loading the required packages
 
 library(seqinr)
@@ -21,7 +21,7 @@ data<-read.abif("A01-Ladder-PP16-001.5sec.fsa")
 #Data plotting
 
 plotabif(data)
-'''
+```
 ### Plot
 
 
