@@ -70,5 +70,5 @@ ggplot(data = dataframes,group=data_number,aes(color=data_number)) +
   
 ### Plot
 
-![](images/medium.PNG)
+![](images/mdeium.PNG)
 
