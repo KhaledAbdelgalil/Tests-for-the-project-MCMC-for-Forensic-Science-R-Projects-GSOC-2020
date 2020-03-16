@@ -34,6 +34,7 @@ To make a similar multi-panel ggplot with `facet_grid`.
 ### Code
 
 ```
+#Add your dataframes here
 dataframes_found_in_system=c("DATA.1","DATA.2","DATA.3","DATA.4")
 #loading the required packages
 
@@ -50,6 +51,7 @@ data<-read.abif("A01-Ladder-PP16-001.20sec.fsa")$Data
 dataframes=NULL
 i=length(dataframes_found_in_system)
 
+#while there is dataframe take it and bind it with previous dataframes
 while(i!=0)
 {
 time<-c(1:length(data[[dataframes_found_in_system[i]]]))
