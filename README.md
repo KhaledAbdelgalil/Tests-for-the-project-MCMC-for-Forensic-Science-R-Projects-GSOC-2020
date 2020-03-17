@@ -386,23 +386,23 @@ smallest-largest Example:
 
 get_outliers Example:
 
-!![](images/get_outliers.png)
+![](images/get_outliers.png)
 
 remove_outliers Example:
 
-!![](images/remove_outliers.png)
+![](images/remove_outliers.png)
 
 min_max_normalize Example:
 
-!![](images/min_max_normalize.png)
+![](images/min_max_normalize.png)
 
 z_score_normalize Example:
 
-!![](images/z_score_normalize.png)
+![](images/z_score_normalize.png)
 
 decimal_normalize Example:
 
-!![](images/decimal_normalize.png)
+![](images/decimal_normalize.png)
 
 ### Last notes 
 
