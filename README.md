@@ -378,6 +378,9 @@ normalize_decimal <-function(data)
 
 ```
 
+### output images
 ![]()
 ![]()
+
+### Last notes 
 
