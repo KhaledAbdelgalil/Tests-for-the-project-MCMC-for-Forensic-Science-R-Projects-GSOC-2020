@@ -84,7 +84,7 @@ ggplot(data = dataframes,group=data_number,aes(color=data_number)) +
 
 Demonstrate your capability in one of the "Bayesian packages for general model fitting" listed here: [https://cloud.r-project.org/web/views/Bayesian.html](https://cloud.r-project.org/web/views/Bayesian.html), or in writing an R package with C++ code.
 
-I have created R packages using C++. This packages operates on R vectors .It have 7 operations:
+I have created R package using C++. This package operates on R vectors .It have 7 operations:
 
 smallest:Get minmum element in vector.
 
