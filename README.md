@@ -87,12 +87,18 @@ Demonstrate your capability in one of the "Bayesian packages for general model f
 I have created R packages using C++. This packages operates on R vectors .It have 7 operations:
 
 smallest:Get minmum element in vector.
+
 largest:Get maximum element in vector.
+
 get_outliers:Return outliers in vector.
+
 remove_outliers:Return input vector but without outliers.
-min_max_normalize:Normalize input vector accoring to min max interval
-z_score_normalize:N
-decimal_normalize
+
+min_max_normalize:Normalize input vector according to min max interval.
+
+z_score_normalize:Normalize input vector accoring to z score.
+
+decimal_normalize:Normalize input vector accoring to decimal method.
 
 ### Code
 
