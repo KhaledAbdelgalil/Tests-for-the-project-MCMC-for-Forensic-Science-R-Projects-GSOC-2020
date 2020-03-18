@@ -412,3 +412,4 @@ decimal_normalize Example:
 
 ### Last notes 
 
+To know more about package please refer to documents folder.
